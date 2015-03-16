@@ -55,6 +55,6 @@ I remapped caps lock to control, because A) I never use caps lock as it's intend
 ### Pathogen
  [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332) is a great way to manage packages for Vim.
 
- ***
- ### Other useful commands
-  * `:b#` Show the previously viewed buffer
+***
+### Other useful commands
+* `:b#` Show the previously viewed buffer
