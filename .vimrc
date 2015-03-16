@@ -24,3 +24,6 @@ set tabstop=2 shiftwidth=2 softtabstop=2 smarttab expandtab
 " set up for ctrlp - full path fuzzy file, buffer, mru, tag, ... finder
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" disable scrollbars to get a little more screen real estate
+set guioptions-=L guioptions-=r
