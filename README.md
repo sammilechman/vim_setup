@@ -46,6 +46,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
 * [Rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
   * `:Rails` wraps `rails`
   * `:Rake` wraps `rake`
+* [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
 
 ***
 ### Remap Caps Lock
