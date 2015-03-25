@@ -47,6 +47,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
   * `:Rails` wraps `rails`
   * `:Rake` wraps `rake`
 * [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
+* [EasyGrep](https://github.com/dkprice/vim-easygrep): Fast and easy Find-and-Replace across multiple files
 
 ***
 ### Remap Caps Lock
