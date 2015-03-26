@@ -27,3 +27,6 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " disable scrollbars to get a little more screen real estate
 set guioptions-=L guioptions-=r
+
+" increase default width of NERDTree (default is 31)
+let g:NERDTreeWinSize=50
