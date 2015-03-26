@@ -30,3 +30,9 @@ set guioptions-=L guioptions-=r
 
 " increase default width of NERDTree (default is 31)
 let g:NERDTreeWinSize=50
+
+" sane defaults for EasyGrep plugin
+let g:EasyGrepIgnoreCase=1
+let g:EasyGrepHidden=1
+let g:EasyGrepJumpToMatch=0
+let g:EasyGrepRoot='search:.git,.hg,.svn'
