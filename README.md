@@ -47,11 +47,8 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
   * `:Rails` wraps `rails`
   * `:Rake` wraps `rake`
 * [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
-* [EasyGrep](https://github.com/dkprice/vim-easygrep): Fast and easy Find-and-Replace across multiple files
-  * `<Leader>vv` Grep for the word under the cursor, match all occurences
-  * `<Leader>vV` Grep for the word under the cursor, match whole word
-  * `<Leader>vr` Perform a global search search on the word under the cursor and prompt for a pattern with which to replace it
-  * `:Grep [arg]` Search for the specified arg, like `<Leader>vv`.  When an ! is added, search like `<Leader>vV`
+* [ack.vim](https://github.com/mileszs/ack.vim): Vim frontend for the Perl module App::Ack
+  * `:Ack [options] {pattern} [{directories}]`
 
 ***
 ### Remap Caps Lock
