@@ -49,7 +49,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
 * [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
 * [ack.vim](https://github.com/mileszs/ack.vim): Vim frontend for the Perl module App::Ack
   * `:Ack [options] {pattern} [{directories}]`
-
+* [SuperTab](https://github.com/ervandew/supertab): Perform all your vim insert mode completions with Tab
 ***
 ### Remap Caps Lock
 I remapped caps lock to control, because A) I never use caps lock as it's intended to be used, and B) It's easier on the hands. See [this Stack Overflow post](http://stackoverflow.com/a/15462034/4064439) for details.
@@ -59,5 +59,6 @@ I remapped caps lock to control, because A) I never use caps lock as it's intend
  [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332) is a great way to manage packages for Vim.
 
 ***
-### Other useful commands
+### Other useful Vim/tmux commands
 * `:b#` Show the previously viewed buffer
+* `<ctrl-z>` hides vim, shows terminal. `fg` brings vim back into the foreground.

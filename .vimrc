@@ -9,11 +9,6 @@ set noswapfile
 " see details of this color scheme in ~/.vim/bundle/vim-molokai
 colorscheme molokai
 
-" auto-open NERDTree and switch into main window
-" http://stackoverflow.com/questions/1447334/how-do-you-add-nerdtree-to-your-vimrc
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
-
 " cursor uses smart indents
 filetype plugin indent on
 
