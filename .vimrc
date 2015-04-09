@@ -23,5 +23,21 @@ let g:ctrlp_cmd = 'CtrlP'
 " disable scrollbars to get a little more screen real estate
 set guioptions-=L guioptions-=r
 
+" display line numbers
+set number
+
 " increase default width of NERDTree (default is 31)
 let g:NERDTreeWinSize=50
+
+" enable syntax highlighting for terminal vim
+filetype plugin indent on
+syntax on
+
+" <leader>ne toggles NERDTree
+map <leader>ne :NERDTreeToggle<cr>
+
+" http://blog.terriblelabs.com/blog/2013/02/09/stupid-vim-tricks-how-to-change-insert-mode-cursor-shape-with-tmux/
+let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+inoremap <special> <Esc> <Esc>hl
+set guicursor+=i:blinkwait0
