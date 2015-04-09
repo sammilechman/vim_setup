@@ -50,6 +50,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
 * [ack.vim](https://github.com/mileszs/ack.vim): Vim frontend for the Perl module App::Ack
   * `:Ack [options] {pattern} [{directories}]`
 * [SuperTab](https://github.com/ervandew/supertab): Perform all your vim insert mode completions with Tab
+
 ***
 ### Remap Caps Lock
 I remapped caps lock to control, because A) I never use caps lock as it's intended to be used, and B) It's easier on the hands. See [this Stack Overflow post](http://stackoverflow.com/a/15462034/4064439) for details.
