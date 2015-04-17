@@ -41,3 +41,12 @@ let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
 let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 inoremap <special> <Esc> <Esc>hl
 set guicursor+=i:blinkwait0
+
+" fix backspace in insert mode
+set backspace=2
+
+" custom colors for indent guide and enable on vim startup
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=17
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=235
+let g:indent_guides_enable_on_vim_startup = 1
