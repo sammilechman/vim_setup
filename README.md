@@ -3,7 +3,6 @@ README
 
 This is my .vimrc and collection of plugins for MacVim. The plugins used:
 
-* [Airline](https://github.com/bling/vim-airline): Lean & mean status/tabline for vim that's light as air
 * [Commentary](https://github.com/tpope/vim-commentary): Comment stuff out
   * `gc` in visual mode to comment out selection
   * `gc` to comment out the target of a motion (for example, `gcap` to comment out a paragraph)
@@ -19,8 +18,6 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
   * `<ctrl-p>` if you went too far and want to go back one
   * `<ctrl-x>` remove current virtual cursor, skip to the next location (helpful if you don't want the current selection to be a candidate to operate on later)
 * [Ruby](https://github.com/vim-ruby/vim-ruby): Ruby support for Vim
-* [Bundler](https://github.com/tpope/vim-bundler): Lightweight support for Ruby's Bundler
-  * `:Bundle` wraps `bundle`
 * [Ctrl-P](https://github.com/kien/ctrlp.vim): Full path fuzzy file, buffer, mru, tag, ..., finder
   * `<ctrl-p>` toggle fuzzy finder
 * [Endwise](https://github.com/tpope/vim-endwise): Adding `end` after `if`, `do`, `def` and several other keywords
@@ -40,15 +37,11 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
 * [CoffeeScript](https://github.com/kchmck/vim-coffee-script): CoffeeScript syntax, indenting, compiling, and more
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion): Quickly move the cursor anywhere on the screen
   * `<Leader><Leader><motion>` shows movement options
-* [Fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper so awesome, it should be illegal
-  * `:Git` wraps `git`
 * [Molokai](https://github.com/tomasr/molokai): Port of the monokai theme for TextMate
 * [Rails](https://github.com/tpope/vim-rails): Ruby on Rails power tools
   * `:Rails` wraps `rails`
   * `:Rake` wraps `rake`
 * [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
-* [ack.vim](https://github.com/mileszs/ack.vim): Vim frontend for the Perl module App::Ack
-  * `:Ack [options] {pattern} [{directories}]`
 * [SuperTab](https://github.com/ervandew/supertab): Perform all your vim insert mode completions with Tab
 
 ***
