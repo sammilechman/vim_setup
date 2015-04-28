@@ -9,6 +9,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
   * `gcc` to comment out a line (takes a count)
 * [Emmet](https://github.com/mattn/emmet-vim): Expand abbreviations for faster development
   * `<ctrl-y>,` to expand
+* [Airline](https://github.com/bling/vim-airline): Lean & mean status/tabline for vim that's light as air
 * [Indent guides](https://github.com/nathanaelkane/vim-indent-guides): Visually display indent levels
   * `<Leader>ig` toggle plugin
 * [Multiple cursors](https://github.com/terryma/vim-multiple-cursors): A port of Sublime Text's awesome multiple selection feature
@@ -20,7 +21,6 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
 * [Ruby](https://github.com/vim-ruby/vim-ruby): Ruby support for Vim
 * [Ctrl-P](https://github.com/kien/ctrlp.vim): Full path fuzzy file, buffer, mru, tag, ..., finder
   * `<ctrl-p>` toggle fuzzy finder
-* [Endwise](https://github.com/tpope/vim-endwise): Adding `end` after `if`, `do`, `def` and several other keywords
 * [JavaScript](https://github.com/pangloss/vim-javascript): Provides syntax and indent plugins
 * [NERDTree](https://github.com/scrooloose/nerdtree): Allows you to explore your filesystem and to open files and directories
   * `<ctrl-w><motion>` switch between windows
