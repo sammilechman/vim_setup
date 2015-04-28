@@ -8,6 +8,7 @@ set noswapfile
 
 " see details of this color scheme in ~/.vim/bundle/vim-molokai
 colorscheme molokai
+let g:molokai_original = 1
 
 " cursor uses smart indents
 filetype plugin indent on
