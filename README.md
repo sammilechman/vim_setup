@@ -43,6 +43,7 @@ This is my .vimrc and collection of plugins for MacVim. The plugins used:
   * `:Rake` wraps `rake`
 * [HAML](https://github.com/tpope/vim-haml): Vim runtime files for Haml, Sass, and SCSS
 * [SuperTab](https://github.com/ervandew/supertab): Perform all your vim insert mode completions with Tab
+* [Scala](https://github.com/derekwyatt/vim-scala.git): Derek Wyatt's integration of Scala into Vim 
 
 ***
 ### Remap Caps Lock
