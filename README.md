@@ -1,7 +1,7 @@
 README
 ===
 
-This is my .vimrc and collection of plugins for MacVim. The plugins used:
+This is my .vimrc, .tmux.conf, .bashrc, and collection of plugins for MacVim. The plugins used:
 
 * [Commentary](https://github.com/tpope/vim-commentary): Comment stuff out
   * `gc` in visual mode to comment out selection
