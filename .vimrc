@@ -34,6 +34,14 @@ let g:NERDTreeWinSize=50
 filetype plugin indent on
 syntax on
 
+" use <Leader> for copying and pasting to system clipboard
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
 " <leader>ne toggles NERDTree
 map <leader>ne :NERDTreeToggle<cr>
 
@@ -51,3 +59,8 @@ let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=17
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=235
 let g:indent_guides_enable_on_vim_startup = 1
+
+" vim-airline config
+let g:airline_theme='bubblegum'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
