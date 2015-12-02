@@ -42,6 +42,9 @@ nmap <Leader>P "+P
 vmap <Leader>p "+p
 vmap <Leader>P "+P
 
+" use <Leader>cp to copy the filepath to the system clipboard
+nmap <Leader>cp :let @+ = expand("%")<cr>
+
 " <leader>ne toggles NERDTree
 map <leader>ne :NERDTreeToggle<cr>
 
@@ -64,3 +67,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:airline_theme='bubblegum'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
+
+" always display the status line
+set laststatus=2
