@@ -70,3 +70,6 @@ let g:airline_right_sep=''
 
 " always display the status line
 set laststatus=2
+
+" disable Markdown folding from vim-markdown plugin
+let g:vim_markdown_folding_disabled=1

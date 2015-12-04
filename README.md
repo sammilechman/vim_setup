@@ -46,6 +46,7 @@ This is my .vimrc, .tmux.conf, .bashrc, and collection of plugins for MacVim. Th
 * [Scala](https://github.com/derekwyatt/vim-scala.git): Derek Wyatt's integration of Scala into Vim 
 * [Fugitive](https://github.com/tpope/vim-fugitive): The best Git wrapper of all time
 * [HackerNews](https://github.com/ryanss/vim-hackernews): Browse HackerNews inside Vim
+* [Markdown](https://github.com/plasticboy/vim-markdown): Syntax highlighting, matching rules and mappings for Markdown
 
 ***
 ### Remap Caps Lock
