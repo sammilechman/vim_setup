@@ -73,3 +73,6 @@ set laststatus=2
 
 " disable Markdown folding from vim-markdown plugin
 let g:vim_markdown_folding_disabled=1
+
+" ctrl-p ignore some directories (https://github.com/kien/ctrlp.vim/issues/58#issuecomment-42743551)
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|tmp)'
